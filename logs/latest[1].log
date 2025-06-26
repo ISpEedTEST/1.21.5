@@ -1,0 +1,830 @@
+[10:47:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21+35-LTS; Eclipse Adoptium Temurin-21+35) on Linux 6.12.25+rpt-rpi-2712 (aarch64)
+[10:47:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-25-main@def0532 (2025-04-21T18:42:34Z) for Minecraft 1.21.5
+[10:47:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:47:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[10:47:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - VeinMiner (2.3.0)
+[10:47:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:47:43] [ServerMain/INFO]: Loaded 1373 recipes
+[10:47:44] [ServerMain/INFO]: Loaded 1484 advancements
+[10:47:44] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[10:47:44] [Server thread/INFO]: Loading properties
+[10:47:44] [Server thread/INFO]: This server is running Paper version 1.21.5-25-main@def0532 (2025-04-21T18:42:34Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[10:47:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:47:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:47:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:47:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:47:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:47:46] [Server thread/INFO]: Default game type: SURVIVAL
+[10:47:46] [Server thread/INFO]: Generating keypair
+[10:47:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:47:46] [Server thread/INFO]: Using epoll channel type
+[10:47:46] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[10:47:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux aarch64) cipher from Velocity.
+[10:47:46] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.3.0
+[10:47:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:47:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:47:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:47:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:47:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:47:46] [Server thread/INFO]: Preparing level "world"
+[10:47:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:47:48] [Server thread/INFO]: Preparing spawn area: 0%
+[10:47:48] [Server thread/INFO]: Preparing spawn area: 2%
+[10:47:49] [Server thread/INFO]: Preparing spawn area: 18%
+[11:49:20] [Server thread/INFO]: Time elapsed: 1355 ms
+[11:49:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:49:21] [Server thread/INFO]: Preparing spawn area: 0%
+[11:49:21] [Server thread/INFO]: Preparing spawn area: 8%
+[11:49:21] [Server thread/INFO]: Preparing spawn area: 40%
+[11:49:22] [Server thread/INFO]: Time elapsed: 1362 ms
+[11:49:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:49:22] [Server thread/INFO]: Preparing spawn area: 0%
+[11:49:22] [Server thread/INFO]: Time elapsed: 293 ms
+[11:49:22] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.3.0
+[11:49:22] [Server thread/INFO]: [VeinMiner] Using "sqlite" for persistent data storage.
+[11:49:22] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[11:49:22] [Server thread/INFO]: [VeinMiner] Added 14 aliases.
+[11:49:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 28 unique blocks.
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 12 unique blocks.
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 14 unique blocks.
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 4 unique blocks.
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[11:49:23] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[11:49:23] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registering commands
+[11:49:23] [Server thread/INFO]: [VeinMiner] Registering events
+[11:49:23] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[11:49:23] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[11:49:23] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[11:49:24] [ForkJoinPool.commonPool-worker-2/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
+[11:49:24] [Server thread/INFO]: [spark] Starting background profiler...
+[11:49:24] [Server thread/INFO]: Done preparing level "world" (6.791s)
+[11:49:24] [Server thread/INFO]: Running delayed init tasks
+[11:49:25] [Server thread/INFO]: Done (3715.981s)! For help, type "help"
+[11:51:51] [User Authenticator #0/INFO]: UUID of player khwg is c183d83e-ca01-3b7d-b1ff-463866cb516b
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/338, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.07, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/340, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/339, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.11, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/341, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.09, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/339, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.11, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/342, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.10, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/338, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.07, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/343, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/339, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.11, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/344, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.95, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/338, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.07, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/345, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/339, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.11, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/346, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[11:51:53] [Server thread/INFO]: khwg joined the game
+[11:51:53] [Server thread/INFO]: khwg[/100.115.206.40:51578] logged in with entity id 336 at ([world]348.00175711513845, 66.0, -1664.4985544133392)
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/338, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.07, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/365, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[11:51:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/339, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.11, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/366, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[11:51:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ec2a5ad3-fc17-4166-89e0-7ef32891d4cf, mapped to Bat['Bat'/756, uuid='ec2a5ad3-fc17-4166-89e0-7ef32891d4cf', l='ServerLevel[world]', x=353.46, y=-9.51, z=-1585.38, cpos=[22, -100], tl=0, v=true], can't add Bat['Bat'/770, uuid='ec2a5ad3-fc17-4166-89e0-7ef32891d4cf', l='ServerLevel[world]', x=352.19, y=-9.12, z=-1583.81, cpos=[22, -99], tl=0, v=false]
+[11:51:56] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 709eab8a-524a-4858-a1ac-a68fc4319500, mapped to Squid['Squid'/815, uuid='709eab8a-524a-4858-a1ac-a68fc4319500', l='ServerLevel[world]', x=417.45, y=59.97, z=-1584.10, cpos=[26, -100], tl=0, v=true], can't add Squid['Squid'/839, uuid='709eab8a-524a-4858-a1ac-a68fc4319500', l='ServerLevel[world]', x=416.94, y=59.86, z=-1583.31, cpos=[26, -99], tl=0, v=false]
+[11:56:26] [Server thread/INFO]: khwg lost connection: Disconnected
+[11:56:26] [Server thread/INFO]: khwg left the game
+[12:28:03] [User Authenticator #1/INFO]: UUID of player khwg is c183d83e-ca01-3b7d-b1ff-463866cb516b
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3782, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3784, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3783, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.04, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3785, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.09, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3783, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.04, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3786, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.10, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3782, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3787, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3783, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.04, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3788, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.95, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3782, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3789, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3783, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.04, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3790, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3782, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3791, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/3783, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.04, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/3792, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:28:05] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:28:05] [Server thread/INFO]: khwg joined the game
+[12:28:05] [Server thread/INFO]: khwg[/100.115.206.40:53468] logged in with entity id 3779 at ([world]406.69999998807907, 66.0, -1716.6787089125787)
+[12:34:28] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:34:58] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:35:06] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:35:55] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:36:40] [User Authenticator #2/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[12:36:41] [Server thread/INFO]: BED_BAT_MAN joined the game
+[12:36:41] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:61553] logged in with entity id 7289 at ([world]-549.0709972234802, 69.0, 1125.9998968512105)
+[12:39:32] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:40:02] [Server thread/INFO]: khwg issued server command: /seedcracker version
+[12:40:08] [Server thread/INFO]: khwg issued server command: /seedcracker render
+[12:40:16] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:41:36] [Server thread/INFO]: khwg issued server command: /seedcracker data
+[12:42:59] [Async Chat Thread - #0/INFO]: [Not Secure] <khwg> tttt
+[12:43:03] [Async Chat Thread - #0/INFO]: [Not Secure] <BED_BAT_MAN> ?
+[12:43:31] [Server thread/INFO]: Villager Villager['Librarian'/7313, uuid='a58499c4-9f24-49e8-b9d2-7d5f89d4451a', l='ServerLevel[world]', x=-550.51, y=71.00, z=1089.01, cpos=[-35, 68], tl=8174, v=true] died, message: 'Librarian was slain by Zombie Villager'
+[12:44:26] [Async Chat Thread - #2/INFO]: [Not Secure] <khwg> 7eo
+[12:48:54] [Server thread/WARN]: BED_BAT_MAN moved too quickly! -4.489540324669747,-1.0,-9.706439789714977
+[12:48:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3061ms or 61 ticks behind
+[12:53:00] [Async Chat Thread - #4/INFO]: [Not Secure] <khwg> why im laging?
+[12:53:06] [Async Chat Thread - #4/INFO]: [Not Secure] <BED_BAT_MAN> idk
+[12:54:00] [Async Chat Thread - #4/INFO]: [Not Secure] <khwg> brb
+[12:54:03] [Async Chat Thread - #4/INFO]: [Not Secure] <khwg> 1s
+[12:54:22] [Server thread/INFO]: khwg lost connection: Disconnected
+[12:54:22] [Server thread/INFO]: khwg left the game
+[12:57:05] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[12:57:05] [Server thread/INFO]: BED_BAT_MAN left the game
+[12:57:23] [User Authenticator #3/INFO]: UUID of player khwg is c183d83e-ca01-3b7d-b1ff-463866cb516b
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18854, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18856, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18855, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.08, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18857, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18854, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18858, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.09, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18854, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18859, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.10, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18855, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.08, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18860, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18854, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18861, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.95, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18855, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.08, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18862, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18854, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.96, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18863, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/18855, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.08, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/18864, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[12:57:25] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[12:57:25] [Server thread/INFO]: khwg joined the game
+[12:57:25] [Server thread/INFO]: khwg[/100.115.206.40:54463] logged in with entity id 18851 at ([world]-115.75923938035581, 64.0, 330.91089602634304)
+[13:11:08] [Server thread/INFO]: khwg lost connection: Disconnected
+[13:11:08] [Server thread/INFO]: khwg left the game
+[13:18:15] [User Authenticator #4/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[13:18:16] [Server thread/INFO]: BED_BAT_MAN joined the game
+[13:18:16] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:61825] logged in with entity id 25051 at ([world]-516.7934642303487, 75.0, 1134.8230518106402)
+[13:20:23] [User Authenticator #5/INFO]: UUID of player khwg is c183d83e-ca01-3b7d-b1ff-463866cb516b
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25779, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25781, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.00, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25780, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.26, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25782, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25779, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25783, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25780, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.26, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25784, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.09, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25780, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.26, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25785, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.10, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25779, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25786, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25780, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.26, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25787, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.95, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25779, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.01, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25788, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/25780, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.26, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/25789, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:20:24] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:20:24] [Server thread/INFO]: khwg joined the game
+[13:20:24] [Server thread/INFO]: khwg[/100.115.206.40:54931] logged in with entity id 25775 at ([world]459.136401755597, 62.0, -1588.8195827050686)
+[13:29:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6148ms or 122 ticks behind
+[13:29:07] [Async Chat Thread - #6/INFO]: [Not Secure] <BED_BAT_MAN> tttttt
+[13:31:12] [Server thread/INFO]: khwg has made the advancement [Sneak 100]
+[13:43:20] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> if u want to die tp to me
+[13:43:28] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp BED_BAT_MAN khwg
+[13:43:28] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to khwg]
+[13:43:42] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp @s -543 70.5 1101
+[13:43:42] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to -542.500000, 70.500000, 1101.500000]
+[13:43:47] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> a7aaaa
+[13:43:51] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> شو؟
+[13:44:01] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> سوي سبكتيت وشوف
+[13:44:13] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode spectator
+[13:44:13] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Spectator Mode]
+[13:44:16] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp BED_BAT_MAN khwg
+[13:44:16] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to khwg]
+[13:44:21] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> اويلي
+[13:44:31] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> خخخخخخخخخخخخخخخخ
+[13:44:36] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> انط؟
+[13:44:40] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> انتبه
+[13:44:57] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> ارسبنه؟
+[13:45:02] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> لاااا
+[13:45:09] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp @s -543 70.5 1101
+[13:45:09] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to -542.500000, 70.500000, 1101.500000]
+[13:45:16] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode survival
+[13:45:16] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Survival Mode]
+[13:45:16] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> شكله راح يرسبن
+[13:45:45] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> وينك
+[13:45:53] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> هربت
+[13:45:57] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> رسبن احاااا
+[13:46:34] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> اسحبك؟
+[13:46:37] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> لا
+[13:46:55] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode spectator
+[13:46:55] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Spectator Mode]
+[13:46:58] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp BED_BAT_MAN khwg
+[13:46:58] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to khwg]
+[13:47:04] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> احا 2
+[13:47:24] [Server thread/INFO]: BED_BAT_MAN issued server command: /tp @s -543 70.5 1101
+[13:47:24] [Server thread/INFO]: [BED_BAT_MAN: Teleported BED_BAT_MAN to -542.500000, 70.500000, 1101.500000]
+[13:47:30] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode survival
+[13:47:30] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Survival Mode]
+[13:47:59] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> احا مين موعله
+[13:48:03] [Async Chat Thread - #8/INFO]: [Not Secure] <khwg> مزعله
+[13:48:05] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> اسجبك
+[13:48:07] [Async Chat Thread - #9/INFO]: [Not Secure] <BED_BAT_MAN> ؟
+[13:48:07] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> لا
+[13:48:23] [Async Chat Thread - #9/INFO]: [Not Secure] <khwg> معايا توتم كثير
+[13:49:40] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[13:49:40] [Server thread/INFO]: BED_BAT_MAN left the game
+[13:54:20] [Server thread/INFO]: khwg lost connection: Disconnected
+[13:54:20] [Server thread/INFO]: khwg left the game
+[13:55:34] [User Authenticator #6/INFO]: UUID of player khwg is c183d83e-ca01-3b7d-b1ff-463866cb516b
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46267, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.02, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46269, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.00, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46268, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.15, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46270, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46267, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.02, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46271, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.97, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46268, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.15, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46272, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.09, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46268, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.15, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46273, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.10, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46267, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.02, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46274, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46268, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.15, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46275, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=69.95, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: db3e3ee4-0543-42d4-bdc1-95539b44ce9b, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46267, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=79.02, z=-1705.53, cpos=[37, -107], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46276, uuid='db3e3ee4-0543-42d4-bdc1-95539b44ce9b', l='ServerLevel[world]', x=603.43, y=78.98, z=-1705.53, cpos=[37, -107], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f5d5ace1-b461-4d24-b564-ec8dc0c9d79f, mapped to ThrownEnderpearl['Thrown Ender Pearl'/46268, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.15, z=-1718.72, cpos=[35, -108], tl=0, v=false], can't add ThrownEnderpearl['Thrown Ender Pearl'/46277, uuid='f5d5ace1-b461-4d24-b564-ec8dc0c9d79f', l='ServerLevel[world]', x=560.69, y=70.06, z=-1718.72, cpos=[35, -108], tl=0, v=false]
+[13:55:35] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:55:35] [Server thread/INFO]: khwg joined the game
+[13:55:35] [Server thread/INFO]: khwg[/100.115.206.40:55274] logged in with entity id 46265 at ([world]3226.699999988079, -51.0, -1637.2997243814225)
+[14:29:36] [Server thread/INFO]: khwg was obliterated by a sonically-charged shriek
+[14:57:49] [User Authenticator #7/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[14:57:49] [Server thread/INFO]: BED_BAT_MAN joined the game
+[14:57:49] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:62210] logged in with entity id 62622 at ([world]-545.9524246118114, 66.0, 1207.8782611133631)
+[14:58:05] [Async Chat Thread - #10/INFO]: [Not Secure] <khwg> انت لسى عندي؟
+[14:58:08] [Async Chat Thread - #10/INFO]: [Not Secure] <BED_BAT_MAN> لا
+[14:58:21] [Async Chat Thread - #10/INFO]: [Not Secure] <BED_BAT_MAN> رحت نمت ابو 3 دق دق
+[14:58:25] [Async Chat Thread - #11/INFO]: [Not Secure] <khwg> خوش
+[14:59:53] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[14:59:53] [Server thread/INFO]: BED_BAT_MAN left the game
+[15:03:06] [User Authenticator #8/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[15:03:07] [Server thread/INFO]: BED_BAT_MAN joined the game
+[15:03:07] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:62261] logged in with entity id 64277 at ([world]-531.5574378013436, 72.0, 1144.5272928274762)
+[15:03:14] [Async Chat Thread - #12/INFO]: [Not Secure] <khwg> شو كل شوي بتنام؟
+[15:03:24] [Async Chat Thread - #12/INFO]: [Not Secure] <BED_BAT_MAN> شايف بنام على الاب توب
+[15:05:46] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[15:05:46] [Server thread/INFO]: BED_BAT_MAN left the game
+[15:10:37] [Server thread/INFO]: khwg was obliterated by a sonically-charged shriek
+[15:13:30] [Server thread/INFO]: khwg lost connection: Disconnected
+[15:13:30] [Server thread/INFO]: khwg left the game
+[15:15:59] [User Authenticator #9/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[15:15:59] [Server thread/INFO]: BED_BAT_MAN joined the game
+[15:15:59] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:62320] logged in with entity id 68741 at ([world]-533.2189480332681, 73.0, 1152.0416296139056)
+[15:16:02] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[15:16:02] [Server thread/INFO]: BED_BAT_MAN left the game
+[17:57:59] [User Authenticator #10/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[17:57:59] [Server thread/INFO]: BED_BAT_MAN joined the game
+[17:57:59] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:62998] logged in with entity id 78896 at ([world]-533.2189480332681, 73.0, 1152.0416296139056)
+[17:59:45] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[17:59:45] [Server thread/INFO]: BED_BAT_MAN left the game
+[18:00:38] [User Authenticator #11/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[18:00:38] [Server thread/INFO]: BED_BAT_MAN joined the game
+[18:00:38] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:63002] logged in with entity id 79365 at ([world]-532.6598789093335, 66.0, 1177.1240778231843)
+[18:14:32] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[18:14:32] [Server thread/INFO]: BED_BAT_MAN left the game
+[18:16:23] [User Authenticator #12/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[18:16:23] [Server thread/INFO]: BED_BAT_MAN joined the game
+[18:16:23] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:63054] logged in with entity id 83454 at ([world]-540.1833304976706, 70.0, 1111.159506608012)
+[18:22:57] [Server thread/WARN]: Horse (vehicle of BED_BAT_MAN) moved wrongly! 0.30903349341456554
+[18:32:23] [Server thread/INFO]: BED_BAT_MAN issued server command: /give BED_BAT_MAN minecraft:coal 128
+[18:32:23] [Server thread/INFO]: [BED_BAT_MAN: Gave 128 [Coal] to BED_BAT_MAN]
+[18:36:36] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[18:36:36] [Server thread/INFO]: BED_BAT_MAN left the game
+[18:37:34] [User Authenticator #13/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[18:37:34] [Server thread/INFO]: BED_BAT_MAN joined the game
+[18:37:34] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:63182] logged in with entity id 91119 at ([world]-570.6999999880791, 68.0, 1170.699999988079)
+[18:40:36] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode spectator
+[18:40:36] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Spectator Mode]
+[18:41:40] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode creative
+[18:41:40] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Creative Mode]
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamerule sendCommandFeedback
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 65 1120 -406 65 1123 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1120 -406 66 1121 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1120 -412 67 1120 minecraft:grass_block[snowy=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1121 -413 67 1121 minecraft:grass_block[snowy=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1122 -411 66 1122 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1122 -414 67 1122 minecraft:grass_block[snowy=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1123 -413 66 1123 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1123 -415 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 65 1124 -416 65 1132 minecraft:chest[facing=south,type=right,waterlogged=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 68 1123 -415 71 1123 minecraft:ladder[facing=west,waterlogged=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 65 1124 -415 65 1132 minecraft:chest[facing=south,type=left,waterlogged=false] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 66 1124 -415 66 1132 minecraft:glass replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 67 1123 -413 67 1123 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 68 1123 -414 71 1123 minecraft:cobblestone replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 65 1124 -414 65 1132 minecraft:hopper[enabled=true,facing=west] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 68 1124 -414 71 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1122 -412 67 1122 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1122 -413 71 1122 minecraft:cobblestone replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 69 1123 -413 71 1123 minecraft:lava[level=0] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 65 1124 -406 65 1132 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1124 -413 66 1125 minecraft:dirt replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1124 -413 71 1124 minecraft:cobblestone replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1125 -413 71 1125 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1126 -412 67 1126 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1126 -413 71 1126 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1127 -406 66 1132 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1128 -411 67 1128 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1129 -406 67 1132 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 67 1121 -411 67 1121 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1121 -412 71 1121 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1122 -412 71 1122 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 66 1123 -412 66 1124 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1123 -412 71 1123 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 76 1124 minecraft:repeater[delay=4,facing=east,locked=false,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 76, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 66 1125 -408 66 1125 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1125 -412 71 1125 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 69 1126 -412 71 1126 minecraft:lava[level=0] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 67 1127 -411 67 1127 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1127 -412 71 1127 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 67 1120 -410 67 1120 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1120 -411 71 1120 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 69 1121 -411 71 1121 minecraft:lava[level=0] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1122 -411 71 1122 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 75 1122 minecraft:piston[extended=true,facing=up]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 75, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1122 minecraft:piston_head[facing=up,short=false,type=normal]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 77 1122 minecraft:sand
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 77, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 66 1123 -411 66 1124 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 72 1123 -409 72 1123 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 74 1123 -411 74 1125 minecraft:stone_brick_slab[type=bottom,waterlogged=false] replace air
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 75 1123 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 75, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1123 minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1124 minecraft:stone_bricks
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 72 1125 -409 72 1125 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 66 1126 -409 66 1126 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1126 -411 71 1126 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1127 -411 71 1127 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1120 -410 71 1120 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1121 -410 71 1121 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 66 1122 -409 66 1122 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1122 -409 67 1122 minecraft:water[level=1] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1122 minecraft:observer[facing=east,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1122 minecraft:piston[extended=false,facing=south]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1122 minecraft:observer[facing=up,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 66 1123 -408 66 1123 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1123 -409 67 1123 minecraft:water[level=2] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1123 minecraft:observer[facing=north,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1123 minecraft:observer[facing=west,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1123 minecraft:observer[facing=north,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1124 minecraft:tnt[unstable=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1124 minecraft:note_block[instrument=harp,note=0,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 76 1124 minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 76, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1125 -409 67 1125 minecraft:water[level=2] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1125 minecraft:stone_bricks
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1125]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1125 minecraft:observer[facing=north,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1125]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1126 -409 67 1126 minecraft:water[level=1] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1126 minecraft:piston[extended=false,facing=north]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1126]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1127 -410 71 1127 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1128 -409 67 1128 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1128 -410 71 1128 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 67 1120 -406 67 1120 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1121 -409 71 1121 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1122 -409 71 1122 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 73 1122 minecraft:note_block[instrument=harp,note=3,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 73, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1122 minecraft:stone_bricks
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1122 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=none]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1122]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 73 1123 minecraft:stone_bricks
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 73, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1123 minecraft:redstone_wire[east=none,north=up,power=0,south=side,west=none]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1123 minecraft:observer[facing=south,powered=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1123]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1124 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=none]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1124 minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1124]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1125 minecraft:stone_bricks
+[18:42:50] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1125]
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1126 -409 71 1126 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 69 1127 -409 71 1127 minecraft:lava[level=0] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1128 -409 71 1128 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1121 -408 71 1121 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 66 1122 -406 66 1122 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1122 -407 67 1122 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 69 1122 -408 71 1122 minecraft:lava[level=0] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1123 -408 67 1125 minecraft:water[level=1] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1123 -408 71 1123 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1125 -408 71 1125 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 66 1126 -406 66 1126 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1126 -407 67 1126 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1126 -408 71 1126 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1127 -408 71 1127 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1128 -406 67 1128 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 67 1121 -406 67 1121 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1122 -407 71 1122 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 66 1123 -406 66 1125 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1123 -407 71 1123 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1124 -407 71 1124 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 69 1125 -407 71 1125 minecraft:lava[level=0] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1126 -407 71 1126 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 67 1127 -406 67 1127 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 67 1122 -406 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 67 1124 -406 67 1125 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 68 1124 -406 71 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 68 1125 -406 71 1125 minecraft:cobblestone replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -417 65 1120 -417 66 1123 minecraft:dirt replace air
+[18:42:50] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -417 67 1120 -417 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:43:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamerule sendCommandFeedback
+[18:43:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 65 1120 -406 77 1132 minecraft:air
+[18:43:49] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 618 block(s)]
+[18:43:49] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -417 65 1120 -417 77 1132 minecraft:air
+[18:43:49] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 12 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamerule sendCommandFeedback
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 65 1120 -406 65 1123 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 44 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1120 -406 66 1121 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 22 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1120 -412 67 1120 minecraft:grass_block[snowy=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 5 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1121 -413 67 1121 minecraft:grass_block[snowy=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1122 -411 66 1122 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 6 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1122 -414 67 1122 minecraft:grass_block[snowy=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 66 1123 -413 66 1123 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 67 1123 -415 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -416 65 1124 -416 65 1132 minecraft:chest[facing=south,type=right,waterlogged=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 9 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 68 1123 -415 71 1123 minecraft:ladder[facing=west,waterlogged=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 65 1124 -415 65 1132 minecraft:chest[facing=south,type=left,waterlogged=false] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 9 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -415 66 1124 -415 66 1132 minecraft:glass replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 9 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -415 67 1124 minecraft:glass
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -415, 67, 1124]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 76 1122 minecraft:stone_button[face=wall,facing=west,powered=false]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 76, 1122]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 67 1123 -413 67 1123 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 68 1123 -414 71 1123 minecraft:cobblestone replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 65 1124 -414 65 1132 minecraft:hopper[enabled=true,facing=west] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 9 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1124 minecraft:water[level=0]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1124]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 67 1124 minecraft:oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 67, 1124]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -414 68 1124 -414 71 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1125 minecraft:water[level=1]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1125]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1126 minecraft:water[level=2]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1126]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1127 minecraft:water[level=3]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1127]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1128 minecraft:water[level=4]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1128]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1129 minecraft:water[level=5]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1129]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1130 minecraft:water[level=6]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1130]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -414 66 1131 minecraft:water[level=7]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -414, 66, 1131]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1122 -412 67 1122 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1122 -413 71 1122 minecraft:cobblestone replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 75 1122 minecraft:lever[face=ceiling,facing=east,powered=true]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 75, 1122]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 76 1122 minecraft:stone_bricks
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 76, 1122]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 68 1123 minecraft:lava[level=8]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 68, 1123]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 69 1123 -413 71 1123 minecraft:lava[level=0] replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 75 1123 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 75, 1123]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 76 1123 minecraft:repeater[delay=3,facing=south,locked=false,powered=false]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 76, 1123]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 65 1124 -406 65 1132 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 72 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1124 -413 66 1125 minecraft:dirt replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 67 1124 minecraft:water[level=6]
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 67, 1124]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1124 -413 71 1124 minecraft:cobblestone replace air
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:53] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 76 1124 minecraft:stone_bricks
+[18:43:53] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 76, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 67 1125 minecraft:dirt
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 67, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1125 -413 71 1125 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1126 -412 67 1126 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 68 1126 -413 71 1126 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 66 1127 -406 66 1132 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 48 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -413 67 1127 minecraft:grass_block[snowy=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -413, 67, 1127]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1128 -411 67 1128 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -413 67 1129 -406 67 1132 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 32 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 67 1121 -411 67 1121 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1121 -412 71 1121 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1122 -412 71 1122 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 75 1122 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 75, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 76 1122 minecraft:repeater[delay=4,facing=west,locked=false,powered=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 76, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 66 1123 -412 66 1124 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 67 1123 minecraft:water[level=4]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 67, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1123 -412 71 1123 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 67 1124 minecraft:water[level=5]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 67, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 75 1124 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 75, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 76 1124 minecraft:repeater[delay=4,facing=east,locked=false,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 76, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 66 1125 -408 66 1125 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 5 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 67 1125 minecraft:water[level=4]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 67, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1125 -412 71 1125 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -412 68 1126 minecraft:lava[level=8]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -412, 68, 1126]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 69 1126 -412 71 1126 minecraft:lava[level=0] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 67 1127 -411 67 1127 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -412 68 1127 -412 71 1127 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 67 1120 -410 67 1120 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1120 -411 71 1120 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 68 1121 minecraft:lava[level=8]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 68, 1121]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 69 1121 -411 71 1121 minecraft:lava[level=0] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 67 1122 minecraft:water[level=2]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 67, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1122 -411 71 1122 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 75 1122 minecraft:piston[extended=true,facing=up]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 75, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1122 minecraft:piston_head[facing=up,short=false,type=normal]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 77 1122 minecraft:sand
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 77, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 66 1123 -411 66 1124 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 67 1123 minecraft:water[level=3]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 67, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 72 1123 -409 72 1123 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 74 1123 -411 74 1125 minecraft:stone_brick_slab[type=bottom,waterlogged=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 75 1123 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 75, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1123 minecraft:repeater[delay=4,facing=north,locked=false,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 67 1124 minecraft:water[level=4]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 67, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 72 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 72, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 73 1124 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 73, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 76 1124 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 76, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 67 1125 minecraft:water[level=3]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 67, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 72 1125 -409 72 1125 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 66 1126 -409 66 1126 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -411 67 1126 minecraft:water[level=2]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -411, 67, 1126]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1126 -411 71 1126 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -411 68 1127 -411 71 1127 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1120 -410 71 1120 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 67 1121 minecraft:water[level=0]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 67, 1121]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1121 -410 71 1121 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 66 1122 -409 66 1122 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1122 -409 67 1122 minecraft:water[level=1] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 72 1122 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 72, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1122 minecraft:observer[facing=east,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1122 minecraft:piston[extended=false,facing=south]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1122 minecraft:observer[facing=up,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 76 1122 minecraft:note_block[instrument=basedrum,note=0,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 76, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 66 1123 -408 66 1123 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1123 -409 67 1123 minecraft:water[level=2] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1123 minecraft:observer[facing=north,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1123 minecraft:observer[facing=west,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1123 minecraft:observer[facing=north,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 66 1124 minecraft:grass_block[snowy=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 66, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 67 1124 minecraft:water[level=3]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 67, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 68 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 68, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 72 1124 minecraft:oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 72, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1124 minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1124 minecraft:tnt[unstable=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1124 minecraft:note_block[instrument=harp,note=0,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 76 1124 minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 76, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1125 -409 67 1125 minecraft:water[level=2] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1125 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 75 1125 minecraft:observer[facing=north,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 75, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1126 -409 67 1126 minecraft:water[level=1] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 73 1126 minecraft:stone_brick_slab[type=top,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 73, 1126]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 74 1126 minecraft:piston[extended=false,facing=north]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 74, 1126]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -410 67 1127 minecraft:water[level=0]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -410, 67, 1127]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1127 -410 71 1127 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 67 1128 -409 67 1128 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -410 68 1128 -410 71 1128 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 67 1120 -406 67 1120 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 67 1121 minecraft:stone_brick_slab[type=bottom,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 67, 1121]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1121 -409 71 1121 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1122 -409 71 1122 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 73 1122 minecraft:note_block[instrument=harp,note=3,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 73, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1122 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1122 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=none]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 73 1123 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 73, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1123 minecraft:redstone_wire[east=none,north=up,power=0,south=side,west=none]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1123 minecraft:observer[facing=south,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 66 1124 minecraft:dirt
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 66, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 67 1124 minecraft:water[level=2]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 67, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 72 1124 minecraft:obsidian
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 72, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 73 1124 minecraft:observer[facing=up,powered=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 73, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1124 minecraft:redstone_wire[east=none,north=side,power=0,south=side,west=none]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 75 1124 minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 75, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 74 1125 minecraft:stone_bricks
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 74, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1126 -409 71 1126 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 67 1127 minecraft:stone_brick_slab[type=bottom,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 67, 1127]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -409 68 1127 minecraft:lava[level=8]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -409, 68, 1127]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 69 1127 -409 71 1127 minecraft:lava[level=0] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -409 68 1128 -409 71 1128 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -408 67 1121 minecraft:dirt
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -408, 67, 1121]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1121 -408 71 1121 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 66 1122 -406 66 1122 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1122 -407 67 1122 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 1 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -408 68 1122 minecraft:lava[level=8]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -408, 68, 1122]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 69 1122 -408 71 1122 minecraft:lava[level=0] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1123 -408 67 1125 minecraft:water[level=1] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 1 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1123 -408 71 1123 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -408 66 1124 minecraft:grass_block[snowy=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -408, 66, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1125 -408 71 1125 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 66 1126 -406 66 1126 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1126 -407 67 1126 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 1 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1126 -408 71 1126 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -408 67 1127 minecraft:dirt
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -408, 67, 1127]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 68 1127 -408 71 1127 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -408 67 1128 -406 67 1128 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 67 1121 -406 67 1121 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1122 -407 71 1122 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 66 1123 -406 66 1125 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 6 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -407 67 1123 minecraft:stone_brick_slab[type=bottom,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -407, 67, 1123]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1123 -407 71 1123 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -407 67 1124 minecraft:water[level=0]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -407, 67, 1124]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1124 -407 71 1124 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -407 67 1125 minecraft:stone_brick_slab[type=bottom,waterlogged=true]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -407, 67, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -407 68 1125 minecraft:lava[level=8]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -407, 68, 1125]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 69 1125 -407 71 1125 minecraft:lava[level=0] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 3 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 68 1126 -407 71 1126 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -407 67 1127 -406 67 1127 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 67 1122 -406 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 67 1124 -406 67 1125 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 2 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 68 1124 -406 71 1124 minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -406 68 1125 -406 71 1125 minecraft:cobblestone replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /setblock -406 67 1126 minecraft:grass_block[snowy=false]
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Changed the block at -406, 67, 1126]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -417 65 1120 -417 66 1123 minecraft:dirt replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 8 block(s)]
+[18:43:54] [Server thread/INFO]: BED_BAT_MAN issued server command: /fill -417 67 1120 -417 67 1123 minecraft:grass_block[snowy=false] replace air
+[18:43:54] [Server thread/INFO]: [BED_BAT_MAN: Successfully filled 4 block(s)]
+[18:46:27] [Server thread/INFO]: BED_BAT_MAN issued server command: /gamemode survival
+[18:46:27] [Server thread/INFO]: [BED_BAT_MAN: Set own game mode to Survival Mode]
+[18:54:19] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[18:54:19] [Server thread/INFO]: BED_BAT_MAN left the game
+[19:07:28] [User Authenticator #14/INFO]: UUID of player BED_BAT_MAN is 90b7f0a8-8bac-30f7-9e15-a1657c141e59
+[19:07:28] [Server thread/INFO]: BED_BAT_MAN joined the game
+[19:07:28] [Server thread/INFO]: BED_BAT_MAN[/100.107.45.20:63269] logged in with entity id 95776 at ([world]-526.4708253621467, 72.875, 1122.1379469022452)
+[19:11:32] [Server thread/INFO]: BED_BAT_MAN lost connection: Disconnected
+[19:11:32] [Server thread/INFO]: BED_BAT_MAN left the game
